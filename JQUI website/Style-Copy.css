@@ -1,0 +1,122 @@
+/******Style for background start********/
+.wrap {
+    width: 100%;
+}
+.FP_image {
+    background-image: url("images/Half-Edited.jpg");
+
+    position: relative;
+    height: 50vh;
+}
+.FP_image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+
+
+}
+/**************style for my name***********************/
+.name {
+    color: #FFF;
+    position: relative;
+	padding:80px /*80px 80px*/;
+	font-family: century gothic;
+	font-size:50px;
+	opacity:none;
+}
+/**************style for navigation bar*************/
+.NavDec
+{
+	
+	margin-left: 15px;
+	color:white;
+	position: relative;
+}
+.navigation_bar
+{
+	margin-left:800px; 
+	color: #FFF;
+	font-family: century gothic;
+}
+.h3cls
+{
+	margin-top:150px;
+	color: #FFF;
+    position: relative;
+	font-family: century gothic;
+	opacity:none;	
+	font-size: 25px;
+}
+.contentcls
+{
+ /*padding-right:150px;
+ padding-left:150px;*/
+ font-size: 16px;
+font-family: "century gothic";
+/*color:grey;*/
+}
+.skimgcls
+{
+ padding-right:150px;
+ padding-left:150px;
+}
+
+.divTextStyles
+{
+ color: #FFF;
+    position: relative;
+	/*80px 80px*/;
+	font-family: century gothic;
+	opacity:none;	
+	font-size: 16px;
+	margin-top:20px;
+}
+.divExperience
+{
+	font-size: 16px;
+	font-family: "century gothic";
+	color: #FFF;
+    position: relative;
+	font-family: century gothic;
+	opacity:none;	
+	font-size: 16px;
+	
+}
+
+.h3Exp
+{
+	margin-top:20px;
+	color: #FFF;
+    position: relative;
+	font-family: century gothic;
+	opacity:none;	
+	font-size: 25px;
+}
+
+.contact {
+    color: #FFF;
+    position: relative;
+	padding-left:80px /*80px 80px*/;
+	font-family: century gothic;
+	font-size:15px;
+	opacity:none;
+}
+
+.divParent
+{
+	width:65%; 
+	float:right;
+	display:none;
+}
+img
+{
+	border-radius:10%;
+	margin-left:30%
+}
+#tabs{
+	margin-left:8%;
+}
